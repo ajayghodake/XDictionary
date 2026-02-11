@@ -16,7 +16,7 @@ function SearchInput() {
     e.preventDefault();
 
     const trimmedText = inputText.trim();
-
+    
     if (!trimmedText) {
       setResult(null);
       return;
