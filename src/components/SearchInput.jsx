@@ -18,7 +18,8 @@ function SearchInput() {
     const trimmedText = inputText.trim();
 
     if (!trimmedText) {
-      setResult(null);
+      setResult("not-found");
+    //   setResult(null);
       return;
     }
 
