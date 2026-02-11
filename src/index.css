@@ -1,0 +1,9 @@
+body {
+  background-color: #1f1f1f; /* dark background */
+  color: white;              /* makes text readable */
+  margin: 5px;
+  font-family: Arial, sans-serif;
+}
+html, body, #root {
+  height: 100%;
+}
