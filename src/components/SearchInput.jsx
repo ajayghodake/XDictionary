@@ -16,7 +16,7 @@ function SearchInput() {
     e.preventDefault();
 
     const trimmedText = inputText.trim();
-    
+
     if (!trimmedText) {
       setResult(null);
       return;
@@ -34,7 +34,7 @@ function SearchInput() {
       <div>
         <form onSubmit={handleSubmit}>
           <input
-            type="search"
+            type="text"
             placeholder="Search for a word"
             value={inputText}
             onChange={handleInputChange}

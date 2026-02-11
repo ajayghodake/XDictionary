@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <h1>
-       Dictionar App
+       Dictionary App
       </h1>
       <Search/>
     </>
